@@ -1,5 +1,11 @@
 # Анализ эффективности работы разработчиков
 
+Установка через **pip**:
+
+~~~sh
+pip install -r requirements.txt
+~~~
+
 Пример запуска:
 
 ~~~sh
@@ -15,6 +21,8 @@ $ python3 main.py --files employees1.csv employees2.csv --report performance
  7  Mobile Developer              4.60
  8  QA Engineer                   4.50
 ~~~
+
+![Снимок экрана, результат запуска скрипта в консоли](media/screenshot.png)
 
 Проверка покрытия кода тестами:
 
