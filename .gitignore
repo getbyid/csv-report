@@ -1,4 +1,6 @@
-__pycache__/
-.venv/
-venv/
 *.csv
+.coverage
+.venv/
+.vscode/
+__pycache__/
+venv/

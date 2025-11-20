@@ -15,3 +15,16 @@ $ python3 main.py --files employees1.csv employees2.csv --report performance
  7  Mobile Developer              4.60
  8  QA Engineer                   4.50
 ~~~
+
+Проверка покрытия кода тестами:
+
+~~~sh
+$ pytest --cov=src tests/
+...
+Name              Stmts   Miss  Cover
+-------------------------------------
+src/database.py      12      0   100%
+src/reports.py       44      3    93%
+-------------------------------------
+TOTAL                56      3    95%
+~~~
